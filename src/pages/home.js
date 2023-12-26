@@ -20,6 +20,7 @@ const Home = () => {
       <BlogSection />
       <NewsLetterSection/>
       <Faq/>
+      <hr />
     </div>
   )
 }
