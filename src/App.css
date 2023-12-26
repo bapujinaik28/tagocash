@@ -45,7 +45,7 @@
 
 .sub_text {
   color: #000;
-  font-family: Red Hat Display;
+  font-family: 'Source Sans 3', sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -61,17 +61,23 @@
   line-height: normal;
 }
 
+.app_link{
+  border-radius: 21px;
+  background: #000;
+  width: 150px;
+}
+
 .margin_top {
   margin-top: 75px;
 }
 
 .cash_king_title {
   color: #000;
-  font-family: Source Sans 3;
-  font-size: 52px;
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 40px;
   font-style: normal;
   font-weight: 400;
-  line-height: 54.888px;
+  line-height: 50px;
 }
 
 .fasst_title {
@@ -90,7 +96,7 @@
 
 .fasst_feature_description {
   color: #000;
-  font-family: Source Sans 3;
+  font-family: 'Source Sans 3', sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -113,9 +119,10 @@
 }
 
 .fasst_secure_text_width {
-  max-width: 215px;
+  max-width: 225px;
   width: 100%;
 }
+
 /* end hero section */
 
 .padding_top {
@@ -170,7 +177,7 @@
 }
 
 .tagocash_features_text {
-  font-family: Source Sans 3;
+  font-family: 'Source Sans 3', sans-serif;
   padding-left: 38px;
 }
 
@@ -181,15 +188,17 @@
 
 .download_app_subtext{
   color: #FFF;
-  font-family: Red Hat Display;
+  font-family: 'Source Sans 3', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
 
-.download_app_gap{
-  gap: 28%;
+.app_link_position{
+  position: absolute;
+  right: 17%;
+  top: 40%;
 }
 
 /* begin get more with tago cash */
@@ -254,11 +263,18 @@
 .cards{
   width: 368px;
   height: 495px;
+  transition: transform .2s;
+}
+
+.cards:hover{
+  -ms-transform: scale(1.03); 
+  -webkit-transform: scale(1.03); 
+  transform: scale(1.03); 
 }
 
 .blog_type_text{
   color: #0581F8;
-  font-family: Red Hat Display;
+  font-family: 'Source Sans 3', sans-serif;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -292,7 +308,8 @@
   width: 600px;
 }
 
-input[type=email]:focus{
+input[type=email]:focus, input[type=text]:focus, textarea:focus, 
+textarea.form-control:focus{
   box-shadow: inset 0 -1px 0 transparent;
 }
 /* end news letter section */
@@ -304,16 +321,16 @@ input[type=email]:focus{
 
 .footer_links_block{
   display: flex;
-  gap: 75px;
+  gap: 120px;
 }
 
 .gap{
-  gap: 100px;
+  gap: 120px;
 }
 
 .footer_subtext {
   color: #000;
-  font-family: Source Sans 3;
+  font-family: 'Source Sans 3', sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -335,5 +352,259 @@ input[type=email]:focus{
 }
 /* end footer */
 
+/* contact us page */
+.contact_section{
+  background: #F6F6F6;
+}
+
+.contact_title{
+  font-size: 57px;
+}
+
+.contact_subtext{
+  font-size: 22px;
+  line-height: normal;
+  max-width: 450px;
+  width: 100%;
+}
+
+.left_sided_contact{
+  flex: 2;
+}
+
+.form_section{
+  flex: 3;
+}
+
+/* news letter page  */
+.img_block{
+  flex: 1.75;
+}
+.subscribe_block{
+  flex: 2;
+}
+
+/* blogs page */
+.blogs_subtext{
+  color: #585858;
+  line-height: normal;
+}
+
+.blog_margin_top{
+  margin-top: 175px;
+}
+
+.featured_article{
+  border-radius: 21px;
+  background: #C6DCFF;
+  width: 134px;
+  text-align: center;
+}
+
+.featured_article_text{
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.blogs_page_subtext{
+font-size: 16px;
+}
+
+.card_title{
+  font-family:'Source Sans 3', sans-serif;
+  font-weight: 600;
+  max-width: 473px;
+  width: 100%;
+}
+
+.card_text{
+  font-size: 20px;
+  max-width: 473px;
+  width: 100%;
+}
+
+/* blog content page */
+.blog_content_block{
+  position: relative;
+}
+
+.left_blog_content{
+  flex: 1.25;
+}
+
+.right_side_block{
+  flex: 0.75;
+}
+
+.blog_content_title{
+  font-family: 'Source Sans 3', sans-serif;
+  font-weight: 500;
+}
+
+.blogs_content_subtext{
+  line-height: normal;
+}
+
+.right_side_content{
+  position:sticky;
+  top: 175px;
+  z-index: 1;
+}
+
+.download_block{
+  border-radius: 5px;
+  background: #DDEBFF;
+  width: 360px;
+  /* height: 380px; */
+  margin: 0 auto;
+ }
+
+.fast_secure_title{
+  line-height: 48px;
+}
+
+.img_app_block{
+  position: relative;
+}
+
+.app_link_block{
+  position: absolute;
+  top: 40px;
+  left: 105px;
+}
+
+.link_block{
+  width: 360px;
+  margin: 0 auto;
+}
+
+.filled_circle_blog{
+  height: 6px;
+  width: 6px;
+  background: #000;
+  border-radius: 50%;
+  margin-top: 8px;
+}
+
+.question_blog{
+  font-size: 20px;
+}
+
+.more_article_title{
+font-size: 36px;
+}
+
+.social_links{
+  display: none;
+}
+
+.footer_text_mobile{
+  display: none;
+}
 
 
+.accordion-button:not(.collapsed){
+  color: #000 !important;
+  background-color: #FFFFFF !important;
+  box-shadow: none !important;
+}
+
+.accordion-button:focus {
+  border-color: #585858 !important;
+  outline: #585858 !important;
+  box-shadow: none !important;
+
+}
+
+.accordion-item:first-of-type .accordion-button {
+  border-radius: var(--bs-accordion-inner-border-radius);
+}
+/* mobile version */
+
+@media (min-width: 360px) and (max-width: 767.95px) {
+
+  /* footer */
+  .footer_links_block {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .link_mobile{
+    display: none;
+  }
+
+  .footer_text{
+    display: none;
+  }
+
+  .social_links{
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer_text_mobile{
+    display: block;
+    margin: 25px auto 0;
+  }
+
+  .footer_block_center{
+    text-align: center;
+  }
+
+  .footer_logo_size{
+    width: 144px;
+    height: 30px;
+  }
+
+  .footer_title {
+    font-size: 20px;
+  }
+
+  .footer_subtext{
+    font-size: 14px;
+  }
+
+  .margin_top{
+    margin-top: 0px;
+  }
+
+  .contact_block{
+    display: flex;
+    align-items: center;
+  }
+
+  .contacts_size{
+    width: 70px;
+    height: 70px;
+  }
+
+  .contact_title{
+    font-size: 28px;
+  }
+
+  .contact_subtext{
+    font-size: 13px;
+  }
+
+  .submit_btn{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .post_box_size{
+    width: 268px;
+    height: 260px;
+  }
+
+  .subscribe_block {
+    border-radius: 100px;
+    background: #FFF;
+    padding: 5px 10px;
+    width: 100%;
+  }
+
+
+
+
+}

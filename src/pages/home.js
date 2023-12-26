@@ -6,9 +6,10 @@ import NewsLetterSection from '../components/home/NewsLetterSection'
 import DownloadApp from '../components/home/DownloadApp'
 import BlogSection from '../components/home/BlogSection'
 import MoreWithTagoCash from '../components/home/MoreWithTagoCash'
+import Faq from '../components/home/Faq'
 
 
-const home = () => {
+const Home = () => {
   return (
     <div>
       <HeroSection />
@@ -18,8 +19,9 @@ const home = () => {
       <MoreWithTagoCash/>
       <BlogSection />
       <NewsLetterSection/>
+      <Faq/>
     </div>
   )
 }
 
-export default home
+export default Home

@@ -1,7 +1,7 @@
 export { default as tagocash_logo } from "./tagocash_logo.png";
 // begin hero section
-export { default as play_store } from "./play_store.png";
-export { default as app_store } from "./app_store.png";
+export { default as google_play } from "./google_play.svg";
+export { default as app_store } from "./app_store.svg";
 export { default as hero } from "./hero.png";
 export { default as currencyanimation_image } from "./currencyanimation_image.png";
 export { default as fasst } from "./fasst.png";
@@ -31,8 +31,6 @@ export { default as blog_1 } from "./blog_1.png";
 export { default as blog_2 } from "./blog_2.png";
 export { default as blog_3 } from "./blog_3.png";
 
-
-
 // news letter section
 export { default as news_letter } from "./news_letter.png";
 
@@ -41,6 +39,18 @@ export { default as linkedin } from "./linkedin.svg";
 export { default as instagram } from "./instagram.svg";
 export { default as twitter } from "./twitter.svg";
 // end footer section
+
+// contact us page
+export { default as contacts } from "./contacts.png";
+
+// newsletter page 
+export { default as post_box } from "./post_box.png";
+
+// blog content page
+export { default as blog_content_right } from "./blog_content_right.png";
+export { default as facebook } from "./facebook.svg";
+export { default as formkit_link } from "./formkit_link.svg";
+
 
 
 

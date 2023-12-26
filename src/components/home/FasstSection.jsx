@@ -12,11 +12,11 @@ const FasstSection = () => {
 
             <div>
                 <img src={fasst_tagocash_logo} width={"358px"} height={"71px"} alt="" />
-                <h3 className="cash_king_title">Because cash is king </h3>
+                <h3 className="cash_king_title">...because cash is king </h3>
             </div>
             </div>
 
-            <div className='pb-5'>
+            <div className='pb-5 margin_top'>
                 <div className="d-flex gap-3 justify-content-center">
                 <img src={fasst_tagocash_logo} width={"358px"} height={"71px"} alt="" />
                 <h3 className="cash_king_title fasst_title">is F.A.S.S.T</h3>
@@ -60,7 +60,7 @@ const FasstSection = () => {
                             </div>
                             <h3 className='hero_subtitle'>Secure</h3>
                         </div>
-                        <p className='fasst_feature_description fasst_secure_text_width'>Bank grade security technology </p>
+                        <p className='fasst_feature_description fasst_secure_text_width'>Bank-grade security technology </p>
                     </div>
 
                     <div>
@@ -70,7 +70,7 @@ const FasstSection = () => {
                             </div>
                             <h3 className='hero_subtitle'>Transparent</h3>
                         </div>
-                        <p className='fasst_feature_description fasst_secure_text_width'>No hidden fees, you pay what you see.</p>
+                        <p className='fasst_feature_description fasst_secure_text_width'>No hidden fees. <br /> You pay what you see.</p>
                     </div>
                 </div>
             </div>

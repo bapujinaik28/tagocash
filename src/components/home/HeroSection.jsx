@@ -1,5 +1,5 @@
 import React from "react";
-import {app_store, play_store, hero, currencyanimation_image } from "../../assets";
+import {app_store, google_play, hero, currencyanimation_image } from "../../assets";
 
 const HeroSection = () => {
   return (
@@ -7,28 +7,33 @@ const HeroSection = () => {
         <div className="d-flex gap-5 margin_top">
           <div className="mt-5">
             <h1 className="hero_title">
-              Everywhere you go,
-              <br />
-              <span className="hero_title_tago">Tago!</span>
+              Everywhere you go,<span className="hero_title_tago">Tago!</span>
             </h1>
             <h3 className="hero_subtitle mt-3">
-              Take it with you where ever you go, <br />
+            TagoCash, is your cash in digital Wallet.<br />
               <span className="sub_text">
-                TagoCash, is your cash stored in digital form
+              Take it with you wherever you go.
               </span>
             </h3>
             <div className="d-flex gap-3 mt-5">
-              <a href="">
-                <img src={play_store} width={"132px"} height={"42px"} alt="play store" />
-              </a>
-              <a href="">
-              <img src={app_store} width={"132px"} height={"42px"} alt="app store" />
-              </a>
+            <a className="text-decoration-none" href="">
+                      <div className="d-flex align-items-center justify-content-center app_link gap-2">
+                        <p className="footer_subtext text-white my-2 p-1">App Store</p>
+                        <img src={app_store} width={"23px"} height={"23px"}  alt="" />
+                      </div>
+                    </a>
+                    
+                    <a className="text-decoration-none" href="">
+                      <div className="d-flex align-items-center justify-content-center app_link gap-2">
+                        <p className="footer_subtext text-white my-2 p-1">Google Play</p>
+                        <img src={google_play} width={"23px"} height={"23px"}  alt="" />
+                      </div>
+                    </a>
             </div>
           </div>
 
           <div>
-            <img src={hero} alt="hero image" width={"671px"} height={"487px"} />
+            <img src={hero} alt="hero image" width={"535px"} height={"450px"} />
           </div>
         </div>
 

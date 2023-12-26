@@ -20,7 +20,8 @@ const PaymentProcess = () => {
             Paying someone, made easier!
           </h3>
           <p className="sub_text">
-            with Tagocash, Its just a simple 3 step process
+          With TagoCash, paying someone is as easy as paying with cash. <br />
+          Complete your payment in 3 simple steps:
           </p>
         </div>
         <div className="d-flex justify-content-between">
@@ -96,7 +97,7 @@ const PaymentProcess = () => {
                 />
               </div>
 
-              <div className="mt-5">
+              <div className="mt-5 ms-4">
                 <div>
                   <div className="d-flex gap-2 align-items-center">
                     <img
