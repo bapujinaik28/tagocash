@@ -81,7 +81,7 @@ const Faq = () => {
           >
             <div class="accordion-body">
               Security, Safety, Privacy, Affordability, Mobility and
-              Transferability to name just a few.
+              Transferability to name just a few...
               <ul>
                 <li>
                   Security: Because TagoCash is safer than your wallet or purse.
